@@ -1,0 +1,145 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-background {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #3d5558;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.task-container {
+  display: flex;
+  max-width: 70vh;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+  background-color: #121213;
+  color: white;
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px;
+  margin: 0 auto 20px;
+  min-height: 205px;
+}
+
+.heading-text {
+  color: #7b8a8a;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+  background-color: #121213;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+.task-complete {
+  text-decoration: line-through;
+  color: white;
+}
+
+.add-button {
+  background-color: #e6eff0;
+  outline: none;
+  border-style: none;
+  border: 3px solid green;
+  color: #131a28;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 15px 15px 15px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.text-input {
+  border: rgba(0, 128, 0, 0.671) 3px solid;
+  outline: none;
+  border-radius: 20px;
+  width: 310px;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0 15px 15px 15px;
+  font-weight: bold;
+}
+
+.list-item {
+  background-color: rgb(110, 179, 131);
+  border: none;
+  border-radius: 8px;
+  width: 450px;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 15px 0;
+  color: #000;
+  font-weight: bold;
+  text-align: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: green;
+}
+
+.delete-btn {
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgb(238, 92, 92);
+  color: rgb(243, 227, 227);
+}
+
+.delete-btn:hover {
+  background-color: rgb(223, 39, 39);
+  color: #000;
+}
+.no-item-text {
+  color: rgb(223, 39, 39);
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+
+.no-item-text:hover {
+  color: red;
+  cursor: pointer;
+}
